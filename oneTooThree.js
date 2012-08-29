@@ -70,7 +70,7 @@ var four = function() {
            b = 999;
         }        
     }
-    document.write(a + " * " + b + " = " + a*b );
+    console.log(a + " * " + b + " = " + a*b );
 };
 
 var isPal = function(n) {

@@ -11,8 +11,8 @@ var four = function() {
            b = 999;
         }        
     }
-    document.write(a + " * " + b + " = " + a*b );
-};
+    return a*b;
+}();
 
 var isPal = function(n) {
  var pal = n.toString(); 
@@ -24,5 +24,4 @@ var isPal = function(n) {
  return false;   
 };
 
-
-four();
+console.log(four);

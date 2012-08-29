@@ -23,6 +23,6 @@ function() {
         (nextI) ? i += 1 : answer *= divs[i];    
     }
     return answer;
-};
+}();
 
-console.log("5: five()");
+console.log("5: " +  five);
