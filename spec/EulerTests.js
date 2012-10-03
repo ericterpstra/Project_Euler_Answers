@@ -212,6 +212,9 @@ describe("I have found a solution for problem: ", function() {
 
   describe("ten", function() {
     
+    // I did not come up with the majority of the code below.  
+    // Sieve algorithm found at: http://c2.com/cgi/wiki?SieveOfEratosthenesInManyProgrammingLanguages
+    // See http://wp.me/p29JRp-5o for explaination in my own words.
     it("Find the sum of all the primes below two million.", function() {
         var ten = function sieve(max) {
             var D = [], 
